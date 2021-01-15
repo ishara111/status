@@ -24,11 +24,11 @@ export default () => (
     <div></div>
     <Branding
       visible={process.env.REACT_APP_BRANDING !== "false"}
-      href="https://github.com/tadhglewis/issue-status"
+      href="#"
       rel="noopener"
       target="_blank"
     >
-      Powered by Issue Status
+      Copyright © TTX | ALPHA - 2021
     </Branding>
   </Footer>
 );
